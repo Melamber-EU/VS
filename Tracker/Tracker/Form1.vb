@@ -59,11 +59,6 @@ Public Class Form1
         sqlconn.Close()
         daAttend.Fill(dsAttend, "dsAttend")
         DataGridView2.DataSource = dsAttend.Tables(0)
-
-        'Dim ChkBox As New DataGridViewCheckBoxColumn
-        'ChkBox.FlatStyle = FlatStyle.Standard
-        'DataGridView2.Columns.Insert(2, ChkBox)
-        'DataGridView2.ReadOnly = True
         DataGridView2.Columns(0).ReadOnly = True
 
     End Sub
