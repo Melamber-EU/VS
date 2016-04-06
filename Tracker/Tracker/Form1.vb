@@ -5,7 +5,7 @@ Public Class Form1
     Dim dsEvents As New DataSet
     Dim daAttend As New SqlDataAdapter
     Dim dsAttend As New DataSet
-    '...4
+    '...44
 
     Dim sqlconn As New SqlConnection
 
