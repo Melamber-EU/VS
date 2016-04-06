@@ -168,7 +168,6 @@ Partial Class Form1
         Me.DataGridView2.ColumnHeadersVisible = False
         Me.DataGridView2.Location = New System.Drawing.Point(417, 89)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.ReadOnly = True
         Me.DataGridView2.RowHeadersVisible = False
         Me.DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView2.Size = New System.Drawing.Size(331, 147)
